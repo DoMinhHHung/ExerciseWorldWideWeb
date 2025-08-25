@@ -1,7 +1,6 @@
-package fit.iuh.se.exerciseworldwideweb_dominhhung;
+package fit.iuh.se.exerciseworldwideweb_dominhhung.Tuan1;
 
 import jakarta.servlet.ServletException;
-import jakarta.servlet.annotation.WebServlet;
 import jakarta.servlet.http.HttpServlet;
 import jakarta.servlet.http.HttpServletRequest;
 import jakarta.servlet.http.HttpServletResponse;
