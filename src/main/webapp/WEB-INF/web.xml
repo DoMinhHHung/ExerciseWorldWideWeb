@@ -3,4 +3,23 @@
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="https://jakarta.ee/xml/ns/jakartaee https://jakarta.ee/xml/ns/jakartaee/web-app_6_0.xsd"
          version="6.0">
+    <servlet>
+        <servlet-name>HtmlServlet</servlet-name>
+        <servlet-class>fit.iuh.se.exerciseworldwideweb_dominhhung.Ex2</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>HtmlServlet</servlet-name>
+        <url-pattern>/index</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>JsonServlet</servlet-name>
+        <servlet-class>fit.iuh.se.exerciseworldwideweb_dominhhung.Ex3</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>JsonServlet</servlet-name>
+        <url-pattern>/json</url-pattern>
+    </servlet-mapping>
 </web-app>
