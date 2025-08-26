@@ -9,7 +9,7 @@ import java.io.IOException;
 import java.io.PrintWriter;
 
 //@WebServlet(name = "indexServerlet", urlPatterns = {"/index"})
-public class Ex2 extends HttpServlet
+public class Ex2_HTML extends HttpServlet
 {
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {

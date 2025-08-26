@@ -5,7 +5,7 @@
          version="6.0">
     <servlet>
         <servlet-name>HtmlServlet</servlet-name>
-        <servlet-class>fit.iuh.se.exerciseworldwideweb_dominhhung.Tuan1.Ex2</servlet-class>
+        <servlet-class>fit.iuh.se.exerciseworldwideweb_dominhhung.Tuan1.Ex2_HTML</servlet-class>
     </servlet>
 
     <servlet-mapping>
@@ -15,7 +15,7 @@
 
     <servlet>
         <servlet-name>JsonServlet</servlet-name>
-        <servlet-class>fit.iuh.se.exerciseworldwideweb_dominhhung.Tuan1.Ex3</servlet-class>
+        <servlet-class>fit.iuh.se.exerciseworldwideweb_dominhhung.Tuan1.Ex3_JSON</servlet-class>
     </servlet>
 
     <servlet-mapping>

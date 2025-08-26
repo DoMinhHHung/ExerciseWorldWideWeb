@@ -9,7 +9,7 @@ import java.io.IOException;
 import java.io.PrintWriter;
 
 //@WebServlet(name = "jsonServlet", urlPatterns = {"/json"})
-public class Ex3 extends HttpServlet
+public class Ex3_JSON extends HttpServlet
 {
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
