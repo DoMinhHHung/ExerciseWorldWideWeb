@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>User Registration</title>
+    <style>
+        body { font-family: Arial; background: #f2f2f2; }
+        .container { width: 400px; margin: auto; background: #fff; padding: 20px; border-radius: 6px; margin-top: 50px; }
+        input, select { width: 100%; padding: 8px; margin: 6px 0; }
+        .row { display: flex; gap: 8px; }
+        .row input { flex: 1; }
+        button { width: 100%; padding: 10px; background: #4267b2; color: #fff; border: none; border-radius: 4px; cursor: pointer; }
+        button:hover { background: #365899; }
+    </style>
+</head>
+<body>
+<div class="container">
+    <h2>User Registration Form</h2>
+    <form action="register" method="post">
+        <div class="row">
+            <input type="text" name="firstName" placeholder="First Name" required>
+            <input type="text" name="lastName" placeholder="Last Name" required>
+        </div>
+        <input type="email" name="email" placeholder="Your Email" required>
+        <input type="email" name="reEmail" placeholder="Re-enter Email" required>
+        <input type="password" name="password" placeholder="New Password" required>
+
+        <label>Birthday</label>
+        <div class="row">
+            <select name="month" required>
+                <option value="">Month</option>
+                <script>
+                    for (let i=1;i<=12;i++){ document.write("<option>"+i+"</option>"); }
+                </script>
+            </select>
+            <select name="day" required>
+                <option value="">Day</option>
+                <script>
+                    for (let i=1;i<=31;i++){ document.write("<option>"+i+"</option>"); }
+                </script>
+            </select>
+            <select name="year" required>
+                <option value="">Year</option>
+                <script>
+                    for (let y=1980;y<=2025;y++){ document.write("<option>"+y+"</option>"); }
+                </script>
+            </select>
+        </div>
+
+        <div>
+            <input type="radio" name="gender" value="Female" required> Female
+            <input type="radio" name="gender" value="Male" required> Male
+        </div>
+
+        <button type="submit">Sign Up</button>
+    </form>
+</div>
+</body>
+</html>
